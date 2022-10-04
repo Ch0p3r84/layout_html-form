@@ -1,1 +1,16 @@
 /* styles go here */
+.fieldset:not(:first-child) {
+  margin: 20px 2px;
+}
+
+label {
+  display: block;
+}
+
+.label:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.label:not(:first-child) {
+  margin-top: 10px;
+}
